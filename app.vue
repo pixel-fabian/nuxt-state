@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import { useGeneralCounter} from './composables/useCounter'
-  const generalCounter = useGeneralCounter();
 </script>
 
 <template>

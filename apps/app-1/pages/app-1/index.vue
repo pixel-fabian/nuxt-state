@@ -1,6 +1,6 @@
  <script setup lang="ts">
-  import { useGeneralCounter} from '../../composables/useCounter'
-  import { useCounterStore} from '../../composables/counterStore'
+    import { useGeneralCounter} from '../../../../global/composables/useCounter'
+    import { useCounterStore} from '../../../../global/composables/counterStore'
 
   const generalCounter = useGeneralCounter();
   const counterStore = useCounterStore();
@@ -8,7 +8,7 @@
  
  <template>
     <div>
-        <h1>App 1 - Page2</h1>
+        <h1>App 1 - Index</h1>
     </div>
 
     <div>
@@ -25,4 +25,4 @@
  
  <style lang="css" scoped>
  
- </style>useGeneralCounteruseGeneralCounter
+ </style>useGeneralCounteruseGeneralCounter../../global/composables/useCounter../../global/composables/counterStore

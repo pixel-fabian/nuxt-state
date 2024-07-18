@@ -4,10 +4,10 @@
 
 <template>
     <div>
-        <h1>Home</h1>
+        <h1>Test Nuxt Layers</h1>
     </div>
 </template>
 
 <style lang="css" scoped>
 
-</style>.
+</style>
