@@ -1,9 +1,11 @@
  <script setup lang="ts">
     import { useGeneralCounter} from '../../../../global/composables/useCounter'
     import { useCounterStore} from '../../../../global/composables/counterStore'
+    import { useApp2CounterStore} from '../../composables/counterStore'
 
   const generalCounter = useGeneralCounter();
   const counterStore = useCounterStore();
+  const app2CounterStore = useApp2CounterStore();
  </script>
  
  <template>
@@ -20,6 +22,12 @@
         <h2>Re-Usable State</h2>
         General Count: {{ generalCounter.count }}
         <button @click="generalCounter.increment">increment</button>
+    </div>
+
+    <div>
+        <h2>App State</h2>
+        App2 Count: {{ app2CounterStore.count }}
+        <button @click="app2CounterStore.increment">increment</button>
     </div>
  </template>
  
