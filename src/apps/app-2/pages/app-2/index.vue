@@ -1,6 +1,6 @@
  <script setup lang="ts">
-    import { useGeneralCounter} from '../../../../global/composables/useCounter'
-    import { useCounterStore} from '../../../../global/composables/counterStore'
+    import { useGeneralCounter} from '../../../../base/composables/useCounter'
+    import { useCounterStore} from '../../../../base/composables/counterStore'
     import { useApp2CounterStore} from '../../composables/counterStore'
 
   const generalCounter = useGeneralCounter();
