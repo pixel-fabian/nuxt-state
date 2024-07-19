@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   extends: [
-    './apps/app-1',
-    './apps/app-2',
+    './src/apps/app-1',
+    './src/apps/app-2',
   ],
+  srcDir: 'src',
 })
