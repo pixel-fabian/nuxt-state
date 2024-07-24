@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-export type User = {
+type User = {
   id: number,
   first_name: string,
   last_name: string,
