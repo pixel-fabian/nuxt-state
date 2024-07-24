@@ -6,7 +6,9 @@ import Navigation from "./base/components/Navigation.vue";
   <div>
     <Navigation></Navigation>
     <NuxtLayout>
-      <NuxtPage />
+      <Suspense>
+        <NuxtPage />
+      </Suspense>
     </NuxtLayout>
   </div>
 </template>
